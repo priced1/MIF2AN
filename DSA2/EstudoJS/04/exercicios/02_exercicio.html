@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    function realizarContagem(){
+        var valorDigitado = parseInt(document.getElementById("valorInput").value); 
+
+        if(isNaN(valorDigitado) || valorDigitado === 0){
+            alert("Digite um valor valido para a contagem!");
+            document.getElementById ("valorInput").focus();
+        } else if (valorDigitado > 40){
+            alert("O valor maximo permitido é 40!");
+            document.getElementById(valorInput).focus(valorInput);
+        }else{
+            document.write("Valor digitado: " + valorDigitado + "<br>");
+            document.write("Contagem até: "+ valorDigitado + ":<br>");
+
+            for(var i = 1; i<= valorDigitado; i++){
+                document.write(i + "<br>");
+            }
+        }
+    }
+</script>
+
+<label for="valorInput">Digite um valor de contagem: </label>
+<input type="text" id="valorInput">
+<button onclick="realizarContagem()">Realizar Contagem</button>
+</body>
+</html>

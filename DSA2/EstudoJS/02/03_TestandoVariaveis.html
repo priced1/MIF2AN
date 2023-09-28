@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03_TestandoVariaveis</title>
+</head>
+<body onload="testandoVariaveis()">
+    <script>
+        var linguagem = "Minha String"
+        var v1=6,v2=4;
+        v1=7.54, v2=2.92;
+        var somaDecimal= v1+v2;
+
+        //Informações por função
+        function testandoVariaveis(){
+            document.write("<h1>Variaveis em JavaScript</h1>");
+            document.write("<h2>A Variavel String é: " + linguagem + "</h2>")
+            document.write("<h2>A soma dos valores: "+v1+" e "+v2+ " inteiro é: "+ "</h2>"); 
+            document.write("<h2>A soma dos valores decimais/float "+v1+" + "+v2+ " ==> " +" somaDecimal"+ "</h2>");
+
+            var porc=1.1, reais=30;
+            var result= porc * reais;
+            document.write("<h2>10% de R$30,00 ==> R$" + result.toFixed(2).replace('.',',')+"</h2>");
+
+            var info= "String normal"
+            var baixa= "String caixa baixa"
+            var alta= "String caixa alta"
+            document.write("<h2>"+ info+ "<br/>"+baixa.toLowerCase()+"<br/>"+alta.toUpperCase()+"</h2>");
+        }
+    </script>
+</body>
+</html>

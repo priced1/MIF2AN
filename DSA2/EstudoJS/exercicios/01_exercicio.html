@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nome em diferentes tipos de caixa</title>
+	<script>
+		function apresentarNome() {
+			var nome = document.getElementById("nome").value;
+			var nomeBaixa = nome.toLowerCase();
+			var nomeAlta = nome.toUpperCase();
+
+			document.getElementById("nomeNormal").innerHTML = nome;
+			document.getElementById("nomeBaixa").innerHTML = nomeBaixa;
+			document.getElementById("nomeAlta").innerHTML = nomeAlta;
+		}
+	</script>
+</head>
+<body>
+	<label for="nome">Digite seu nome:</label>
+	<input type="text" id="nome" name="nome">
+
+	<button onclick="apresentarNome()">Apresentar</button>
+
+	<p><b>Nome normal: <span id="nomeNormal"></span></b></p>
+	<p><b>Nome caixa baixa: <span id="nomeBaixa"></span></b></p>
+	<p><b>Nome caixa alta: <span id="nomeAlta"></span></b></p>
+</body>
+</html>

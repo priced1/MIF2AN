@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabuada</title>
+    <script>
+        function calcularTabuada(){
+            var input = document.getElementById("valor");
+            var valor = parseInt(input.value);
+
+            if(isNaN(valor) || valor < 2 || valor > 10){
+                input.value = "";
+                input.placeholder= "Digite um valor válido (2 a 10)";
+                input.style.borderColor = "red";
+                input.focus();
+                return;
+            }
+            input.placeholder = "";
+            input.style.borderColor = "";
+            
+            document.getElementById("titulo").innerText = "Tabuada do " + valor;
+
+            var tabuada = document.getElementById("tabuada");
+            tabuada.innerHTML = "";
+
+            for(var i = 1; i <= 10; i++){
+                var resultado = valor * i;
+                var linha = document.createElement("p");
+                linha.innerText= valor + " x " + i + " = " + resultado;
+                tabuada.appendChild(linha);
+            }
+            input.value= "";
+            input.focus();
+        }
+    </script>
+</head>
+<body>
+    <h1 id="titulo">Tabuada</h1>
+    <input type="text" id="valor" maxlength="2">
+    <button onclick="calcularTabuada()">Calcular</button>
+    <div id="tabuada"></div>
+</body>
+</html>

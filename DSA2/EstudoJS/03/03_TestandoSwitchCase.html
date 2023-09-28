@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03_Testando Switch Case</title>
+</head>
+<body>
+    <h1>Testando Switch Case</h1>
+    <div>
+        <input type="text" id="textoValor" class="textoValor" autofocus placeholder="Informe um Numero!!!"/>
+        <input type="button" class="botao" value="Testando Valor" onclick="testandoNr()"/>
+    </div>
+
+    <script>
+        function testandoNr(){
+            var msg = "";
+            var valor = document.getElementById("textoValor").value;
+            var valor2 = parseInt(valor);
+
+            switch (valor2) {
+                case 1:
+                    msg = "Um";
+                    break;
+            
+                case 2:
+                    msg = "Dois";
+                    break;
+                    
+                case 3:
+                    msg = "Três";
+                    break;
+
+                case 4:
+                    msg = "Quatro";
+                    break;
+
+                case 5:
+                    msg = "Cinco";
+                    break;
+            default:
+                    msg = "Digite números até 5";    
+                    break;
+            }
+            document.write("<h2>Número por Extenso:<br /> " + msg + "</h2>");
+        }
+    </script>
+</body>
+</html>

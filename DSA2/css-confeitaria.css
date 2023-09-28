@@ -1,0 +1,166 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+.caixaPedido{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    background-color: orange;
+    font-weight: bold;
+    color: white;
+}
+.caixaLogo{
+    width: 100%;
+    text-align: center;
+}
+
+/* formatação da navegação */
+.caixaMenu nav{
+    background-color: orange;
+    text-align: center;
+    border: solid black;
+    padding: 10px 0px;
+}
+.caixaMenu nav li{
+    display: inline;
+    padding: 70px;
+}
+
+/* formatação das letras  */
+
+.caixaMenu nav a{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+/* uso do hover  */
+.caixaMenu nav a:hover{
+    color: #000000;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.principal{
+    padding: 100px 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+.tituloPrincipal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.titulo-principal::first-letter{
+    font-size: 50px;
+}
+.principal-imagem{
+    width: 100px;
+    float: left;
+    margin: 10px;
+}
+.principal p{
+    margin: 0 0 1em;
+    font-size: 20px;
+}
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+.titulo-delivery{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+.titulo-delivery::first-letter{
+    font-size: 50px;
+}
+.delivery table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.delivery th{
+    background-color: orange;
+    color: white;
+    padding: 30px;
+}
+.delivery tr, .delivery td, .delivery th{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.delivery img{
+    width: 40%;
+}
+/* ===========PRODUTOS========== */
+.produtos{
+    padding: 50px 0;
+}
+.titulo-produtos{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    padding: 100px 0 0 0;
+}
+.titulo-produtos:first-letter{
+    font-size: 50px;
+}
+.produtos table{
+    border: 9px;
+    border-style: solid;
+    border-color: orange;
+    margin-left: auto;
+    margin-right: auto;
+}
+.produtos tr,td {
+    text-align: center;
+    color: blue;
+}
+.produtos figcaption{
+    font-weight: bold;
+    font-size: 20px;
+}
+.produtos img{
+    width: 300px;
+    height: 250px;
+    padding: 20px 20px 0px 20px;
+}
+
+/* =========CONTATO======== */
+.contato{
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.titulo-contato::first-letter{
+    font-size: 40px;
+}
+.contato li{
+    display: inline;
+    margin: 0 30px 0 25px;
+    font-size: 30px;
+    /* border: 2px solid red; */
+}
+footer{
+    background: url(projetos/confeitaria/Imagens_CSS/Imagens_CSS/bg.jpg);
+    text-align: center;
+}
+footer img{
+    width: 10%;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Click por seletores - ID - CLASS - TAG</title>
+    <style>
+        *{
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h2>Testando Uso de Acesso por seletores ID - CLASS - TAG</h2>
+    <!-- Usar este formato para getElementById apenas para conhecer -->
+    <button onclick="textoId()">Clique aqui - Uso de ID</button>
+    <span id="spanTextoId"></span><br><br>
+
+    <!-- Estes formatados sao todos por querySelector -->
+    <button onclick="textoSeletor()">Clique aqui - Uso de SELETOR</button>
+    <span id="spanTextoIdSeletor"></span><br><br>
+
+    <button onclick="textoClass()">Clique aqui - Uso de CLASS</button>
+    <span class="spanTextoClass"></span><br><br>
+
+    <button onclick="textoTag()">Clique aqui - Uso da TAG button</button>
+    <span></span><br><br>
+    
+    <script src="scriptSeletores.js"></script>
+
+</body>
+
+</html>

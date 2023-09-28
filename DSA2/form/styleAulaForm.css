@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.legend{
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.caixaCabecalho{
+    font-family: 'Macondo', cursive;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    width: 400px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+}
+.caixaMain{
+    background-color: rgb(56, 130, 199);
+    border-radius: 10px;
+    width: 600px;
+    margin: 0 auto;
+    font-size: 26px;
+    padding: 10px;
+}
+.inputBase{
+    color: rgb(7, 7, 7);
+    width: 90%;
+    font-size: 20px;
+    margin: 0 20px;
+}
+.estado{
+    color: rgb(255, 0, 0);
+    width: 10%;
+    font-size: 18px;
+}
+.estadoLabel{
+    color: rgb(0, 0, 0);
+    width: 10%;
+    font-size: 20px;
+    margin: 0 0 0 20px;
+}
+.inputNumber{
+    color: rgb(0, 0, 0);
+    width: 35%;
+    font-size: 20px;
+    margin: 0 20px;
+}
+.input_data{
+    color: rgb(7, 7, 7);
+    width: 25%;
+    font-size: 20px;
+    margin: 0 20px;
+}
+.color{
+    margin: 0 20px;
+    width: 20%;
+}
+.inputCkb{
+    font-size: 70px;
+    margin: 0 20px;
+}
+.btn_radio{
+    margin: 0 20px;
+}
+.msg{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin: 0 0 20px 20px;
+}
+.botoes{
+    font-size: 25px;
+    margin: 0 20px;
+}

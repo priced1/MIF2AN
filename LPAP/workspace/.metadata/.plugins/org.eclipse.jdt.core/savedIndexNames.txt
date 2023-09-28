@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+Z:\MIF2AN\LPAP\workspace\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+4200252776.index
+3124090304.index

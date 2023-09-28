@@ -1,0 +1,22 @@
+
+public class ExemploWhile {
+
+	public static void main(String[] args) {
+		
+		int i=0;
+		
+		while(i <=10) {
+			System.out.println("Count: " + i);
+			
+			i++;
+		}
+		int i2=0;
+		while(i2 >=10) {
+			System.out.println("Count: " + i2);
+			
+			i2--;
+		}
+
+	}
+
+}
